@@ -5,14 +5,12 @@ import App from './App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 ReactDOM.render(
-  React.createElement(
-    "ul", 
-    null,
-    React.createElement("li", null, "Uzzal Kumar Roy"),
-    React.createElement("li", null, "Nasir Uddin"),
-    React.createElement("li", null, "Sujon Roy"),
-    React.createElement("li", null, "Juwel Rana"),
-    ),
+  <ul>
+    <li>Uzzal Kumar Roy</li>
+    <li>Nasir Uddin</li>
+    <li>Sujon Roy</li>
+    <li>Juwel Rana</li>
+  </ul>,
   document.getElementById("root")
 );
 
